@@ -27,3 +27,20 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+
+.container {
+  display: grid;
+  grid-gap: 15px;
+  background-color: #2196F3;
+  padding: 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  justify-items: center;
+}
+
+.item {
+  background-color: #e27ef3;
+  padding: 20px 0;
+  width: 100%;
+}
+
